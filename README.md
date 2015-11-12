@@ -1,2 +1,5 @@
 # example-iaas
-The example the will illustrate my blog post [IaaS-like RESTfull API based on microservices](http://blog.owulveryck.info/2015/11/10/iaas-like-restfull-api-based-on-microservices/)
+This is a work in progress aim to illustrate the series of [blog posts](http://blog.owulveryck.info/tags/simple-iaas/)
+
+I try to create a branch at the end of each post.
+The master branch is a work in progress
