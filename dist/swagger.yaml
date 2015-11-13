@@ -2,10 +2,20 @@ swagger: '2.0'
 info:
   version: 1.0.0
   title: 'Very Simple IAAS'
+securityDefinitions:
+  authenticator:
+    type: oauth2
+    scopes:
+      read: "allow read"
+    flow: password
+    tokenUrl: /auth/token
 paths:
   /v1/nodes:
     post:
       description: Create a node
+      security:
+        - authenticator:
+          - "read"
       consumes:
         - application/json
       produces:
